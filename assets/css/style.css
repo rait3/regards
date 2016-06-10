@@ -1,0 +1,164 @@
+/*!
+ * CSS General pour un challenge technique
+ * Copyright 2015-2016 Groupe Regards.
+ */
+/*!Globales */
+.main {
+	background:#fff;
+	color: #fff;
+}
+/*!Side bar*/
+aside {
+	background:#004881;
+	color:#fff;
+}
+/*!Nav bar */
+nav {
+	background: #fff;
+}
+h1 {
+	margin: .67em 0;
+	font-size: 4em;
+	line-height:.7em;
+}
+h2 {
+	margin: .67em 0;
+	font-size: 3em;
+	line-height:.7em;
+	padding: 30% 0px 20px 0px;
+}
+h3 {
+	margin: .67em 0;
+	font-size: 2em;
+	line-height:.7em;
+}
+body {
+	font-family: verdana;
+	font-size:12px;
+	line-height:17px;
+	margin:0;
+	padding:0;
+	border: none;
+}
+/*!Put background in the left column */
+div#left {
+	background-image: url('../img/background-tablet.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*!Warning image */
+.warning {
+	padding: 20% 0 10% 0%;
+}
+/*!Videos */
+.media {
+ 	padding: 10% 0px 0% 0%;	
+}
+
+.bottom {
+	position: absolute;
+	bottom: 0%;
+	left: 40%;
+}
+p{
+	padding-top:.5em;
+}
+
+/*------------------------------------------------------------Adaptativity------------------------------------------------------------*/
+/*Iphone 5 et 5S Portrait*/
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) 
+and (orientation : portrait) {
+	.height {
+		height: 1090px;
+	}
+}	
+/*Iphone 6 Portrait*/
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+and (orientation : portrait) {
+	.height {
+		height: 1310px;
+	}
+}
+/*Iphone 6 PLUS Portrait*/
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) 
+and (orientation : portrait) {
+	.height {
+		height: 1430px;
+	}
+}
+/*Ipads portrait*/
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+
+  	.height {
+  		height: 2015px;
+  	}
+}
+/*For Landscape*/
+@media only screen 
+and (orientation : landscape)  { 
+	.warning {
+		padding: 10% 0 0% 0%;
+	}
+	/*!Videos */
+	.media {
+	 	padding: 0% 0% 0% 0%;
+	}
+}
+
+/*Ipads landscape*/
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape)  { 
+	.height {
+		height: 1500px;
+	}
+	p{
+		font-size: 2em;
+	}
+}
+/*Iphone 6 PLUS landscape*/
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) 
+and (orientation : landscape) {
+	.height {
+		height: 800px;
+	}
+	p{
+		font-size: 2em;
+	}
+}
+/*Iphone 6 landscape*/
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+and (orientation : landscape) { 
+	.height {
+		height: 720px;
+	}
+	p{
+		font-size: 2em;
+	}
+}
+/*Iphone 5 landscape*/
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) 
+and (orientation : landscape) {
+	.height {
+		height: 640px;
+	}
+	p{
+		font-size: 2em;
+	}
+}
